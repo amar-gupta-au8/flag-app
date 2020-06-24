@@ -68,12 +68,12 @@ setTimeout(()=>{
         document.getElementById('section-1').style.display='none'
        const name = e.target.parentElement.children[1].innerHTML
        const cc = e.target.parentElement.children[5].children[0].textContent
-       console.log(name)
-       console.log(cc)
+   
+    
        axios
        .get(`https://restcountries.eu/rest/v2/callingcode/${cc}`)
        .then((res) => {
-         console.log(res)
+      
            document.getElementById('second-section').insertAdjacentHTML(
              'beforeend',
              `<div class="singlepage">
