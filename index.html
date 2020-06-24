@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/scss/base.css" />
+    <title>Flag app</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div>
+        <h3>
+          Where in this world?
+        </h3>
+      </div>
+      <div><p>Dark Mode</p></div>
+    </header>
+    <!-- Section 1 -->
+    <div id="section-1">
+      <!-- navigation -->
+      <nav>
+        <div>
+          <input type="text" placeholder="Search for a country" id="search" />
+        </div>
+        <div>
+          <select name="region" id="filter">
+            <option value="" disabled selected>Filter by Region</option>
+            <option value="africa">Africa</option>
+            <option value="America">America</option>
+            <option value="Asia">Asia</option>
+            <option value="Europe">Europe</option>
+            <option value="oceania">Oceania</option>
+          </select>
+        </div>
+      </nav>
+      <main>
+        <div id="main-section"></div>
+      </main>
+    </div>
+
+    <!-- section 2 -->
+    <div class="section-2">
+      <!-- navigation -->
+      <nav>
+        <div>
+          <button id="back">Back</button>
+        </div>
+      </nav>
+      
+      <!-- main section -->
+      <main>
+        <div id="second-section"></div>
+      </main>
+    </div>
+    <!-- main Section -->
+
+    <script src="./dist/main.js"></script>
+  </body>
+</html>

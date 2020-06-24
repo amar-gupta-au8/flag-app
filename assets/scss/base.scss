@@ -1,0 +1,65 @@
+@import '_var.scss';
+body {
+  background: $VeryLGray;
+  font-family: 'Nunito Sans', sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+  background: $White;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 40px;
+  margin-top: 40px;
+  height: 10vh;
+  align-items: center;
+  #search {
+    padding: 20px;
+    width: 15vw;
+    font-size: 20px;
+  }
+  #filter {
+    padding: 20px;
+    width: 14vw;
+    font-size: 20px;
+  }
+}
+#main-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 10vh;
+  #card {
+    margin: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border-radius: 10px;
+  }
+  #flag {
+    height: 20vh;
+    width: 20vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+}
+.singlepage{
+    display: flex;
+    justify-content: start;
+    
+    img{
+        height: 40vh;
+        margin: 4rem;
+    }
+    .divide{
+        display: flex;
+        div{
+            justify-content: center;
+            margin: 3rem;
+        align-items: center;
+        }
+        
+    }
+}
